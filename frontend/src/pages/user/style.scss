@@ -1,0 +1,50 @@
+.container-fluid {
+    .profile {
+        background-color: #006400;
+        height: auto;
+
+        .col {
+            // background-color: #006400;
+            // height: auto;
+
+            .body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+
+                h3 {
+                    color: aliceblue;
+                    text-transform: capitalize;
+
+                }
+
+                .img-fluid {
+                    // background-color: red;
+                    // position: absolute;
+                    height: 150px;
+                    width: 150px;
+                    border-radius: 50%;
+                    border: 7px solid white
+                }
+
+                @media (max-width:400px) {
+                    .img-fluid {
+                        height: 100px;
+                        width: 100px;
+                    }
+
+                }
+
+                .user-name {
+                    color: #fff;
+                    text-transform: capitalize;
+
+                }
+
+
+            }
+        }
+    }
+}
